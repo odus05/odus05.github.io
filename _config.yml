@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en-US"
-title: "KINDABC"
+locale: "ko-KR"
+title: "기록하는 데이터 분석가"
 title_separator: "-"
-subtitle: # site tagline that appears below site title in masthead
-name: "데이터 분석을 좋아하는 개발자"
+subtitle: "Version 1.0" # site tagline that appears below site title in masthead
+name: "Dooseob"
 description: "머신러닝과 딥러닝 등 공부한 내용을 정리하는 블로그입니다."
 url: "https://odus05.github.io"
 baseurl: "" # https://yourname.github.io/projectname
 repository: "odus05/odus05.github.io"
-teaser: /assets/images/tensorflow.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: /assets/images/coding.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+teaser: /assets/images/tensorflow.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: /assets/images/coding.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: "기록하는 데이터 분석가 Blog" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -65,8 +65,8 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-search: # true, false (default)
-search_full_content: # true, false (default)
+search: true # true, false (default)
+search_full_content: true # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
   application_id: # YOUR_APPLICATION_ID
@@ -104,11 +104,11 @@ analytics:
     tracking_id: "UA-158965662-1"
     anonymize_ip: # true, false (default)
 
-# Site Author
+# Site Autho자
 author:
-  name: "데이터 분석을 좋아하는 개발자"
+  name: "Dooseob"
   avatar: "/assets/images/ai.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "하나씩 나의 실력을 키워나가고 싶은 개발자"
+  bio: "하나씩 나의 실력을 키워나가고 싶은 개발자 <br> 블로그 포스트 글에서 잘못된 부분이나 수정했으면 하는 부분, 적극적으로 댓글 남겨주신다면 감사하겠습니다."
   location: "South Korea"
   email:
   links:
@@ -285,7 +285,7 @@ defaults:
 
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
