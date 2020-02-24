@@ -108,7 +108,7 @@ analytics:
 author:
   name: "Dooseob"
   avatar: "/assets/images/ai.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "하나씩 나의 실력을 키워나가고 싶은 개발자 <br> 블로그 포스트 글에서 잘못된 부분이나 수정했으면 하는 부분, 적극적으로 댓글 남겨주신다면 감사하겠습니다."
+  bio: "하나씩 나의 실력을 키워나가고 싶은 개발자 <br> 블로그 포스트 글에서 잘못된 부분이나 수정했으면 하는 부분, 적극적으로 댓글 남겨주신다면 감사하겠습니다.</br>"
   location: "South Korea"
   email:
   links:
