@@ -22,7 +22,7 @@ subtitle: # site tagline that appears below site title in masthead
 name: "데이터 분석을 좋아하는 개발자"
 description: "머신러닝과 딥러닝 등 공부한 내용을 정리하는 블로그입니다."
 url: "https://odus05.github.io"
-baseurl: "/blog" # https://yourname.github.io/projectname
+baseurl: "" # https://yourname.github.io/projectname
 repository: "odus05/odus05.github.io/blog"
 teaser: /assets/images/tensorflow.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: /assets/images/coding.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -30,9 +30,9 @@ masthead_title: # overrides the website title displayed in the masthead, use " "
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
-  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: "odus05-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -280,7 +280,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # 블로그 댓글 기능 true
+      comments: true # 블로그 댓글 기능 true
       share: true
       related: true
 
