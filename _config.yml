@@ -16,10 +16,10 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "odus05의 코딩일지"
+title: "머신러닝과 딥러닝을 활용하여 다양한 예제 문제를 풀어보자!"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "두섭의 코딩일지"
+name: "데이터 분석을 좋아하는 개발자"
 description: "머신러닝과 딥러닝 등 공부한 내용을 정리하는 블로그입니다."
 url: "https://odus05.github.io"
 baseurl: "" # https://yourname.github.io/projectname
@@ -99,22 +99,22 @@ social:
 
 # Analytics
 analytics:
-  provider: false # false (default), "google", "google-universal", "custom"
+  provider: false # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
   google:
     tracking_id:
     anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name: "Your Name"
+  name: "데이터 분석을 좋아하는 개발자"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
+  bio: "I am an **amazing** person자"
+  location: "South Korea"
   email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:odus05@korea.ac.kr
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://odus05@github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -142,6 +142,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
+      url: "https://odus05@github.com/"
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
@@ -215,10 +216,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5 # 첫 페이지에보여줄 최근 게시물 수를 지정
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -280,6 +280,18 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: # 블로그 댓글 기능 true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
