@@ -4,10 +4,9 @@ permalink: /about/
 layout: single
 ---
 
-## odu05.github.io 블로그
+## odus05.github.io 블로그
 
-이 블로그는 GitHub Pages 블로그 서비스인 github.io를 같이 만들어보는 샘플 블로그이다.
+이 블로그는 머신러닝과 딥러닝 등 공부한 내용을 정리하는 블로그입니다.
 
 진짜 블로그인 <https://odus05.com>을 방문해보자.
-이 곳에서 이 샘플 블로그를 같이 만들어보는 GitHub Pages 블로그 따라하기 시리즈의
-모든 글을 볼 수 있다.
+이 곳에서 데이터 분석에 활용되는 다양한 기법들을 따라하실 수 있습니다.
